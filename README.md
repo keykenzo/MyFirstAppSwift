@@ -5,39 +5,33 @@
 
 This is a LOTRConverter, a fun project that converts pieces and pennies for eachtype of currency.
 
-## 📸 Screenshots / Demonstração
+## 📸 Screenshots
 
-| Tela Principal | Detalhes | Configurações |
+| Main Screen | Details | Options |
 |---|---|---|
-| <img src="screenshot1.png" width="200"> | <img src="screenshot2.png" width="200"> | <img src="screenshot3.png" width="200"> |
+| <img src="LOTR Converter/Screenshots/mainscreen.png?v=1" width="200"> | <img src="LOTR Converter/Screenshots/details.png?v=1" width="200"> | <img src="LOTR Converter/Screenshots/options.png?v=1" width="200"> |
 
 > [!TIP]
-> Dica: Use um GIF da gravação da tela do simulador para mostrar as transições!
+> <img src="LOTR Converter/Screenshots/presentation.gif" width="200">
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- [x] Listagem dinâmica de itens.
-- [x] Persistência de dados local com SwiftData/CoreData.
-- [x] Integração com API externa de [Nome da API].
-- [x] Suporte a Dark Mode.
+- [x] Real-Time Conversion: Instant bidirectional calculation as the user types, using onChange and FocusState.
+- [x] Dynamic Currency Selection: Intuitive interface to switch between different currencies (Gold, Silver, etc.).
+- [x] Interactive Tips (TipKit): Implementation of Apple's new framework to educate users about app features.
+- [x] Immersive Interface: Customized design with adaptive backgrounds and thematic visual elements.
+- [x] User Experience (UX): Keyboard optimized for numbers (decimalPad) and autofocus closing.
 
-## 🛠 Tecnologias e Ferramentas
+## 🛠 Technologies and Tools
 
-- **Linguagem:** Swift
-- **Interface:** SwiftUI (ou UIKit)
-- **Arquitetura:** MVVM (Model-View-ViewModel)
-- **Gerenciamento de Dependências:** Swift Package Manager (SPM)
-- **Frameworks:** Combine, URLSession, Lottie (se usar animações).
+- **Language:** Swift
+- **Interface:** SwiftUI
+- **Architeture:** SwiftUI State Management
+- **Dependencies:** Assets Catalog & SF Symbols (Nativo)
+- **Frameworks:** TipKit, Foundation
 
-## 🧠 Desafios Técnicos & Aprendizados
-
-Nesta seção, explique brevemente o que você aprendeu:
-- **Consumo de API:** Como lidou com erros de rede ou parsing de JSON.
-- **Layout:** Uso de `GeometryReader` ou `Auto Layout` complexo.
-- **Gerenciamento de Estado:** Como os dados fluem pelo app.
-
-## 🚀 Como Executar o Projeto
+## 🚀 How to run the project
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/keykenzo/MyFirstAppSwift.git](https://github.com/keykenzo/MyFirstAppSwift.git)
+   git clone https://github.com/keykenzo/MyFirstAppSwift.git 
